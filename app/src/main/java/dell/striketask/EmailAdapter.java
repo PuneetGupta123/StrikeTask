@@ -100,7 +100,7 @@ public class EmailAdapter extends RecyclerView.Adapter<EmailAdapter.ViewHolder> 
         }
         else if(elapsedTime>=week&&elapsedTime<year)
         {
-            Date date = new Date(elapsedTime*1000);
+            Date date = new Date(emailTime*1000);
             SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy"); // the format of your date
             String formattedDate = sdf.format(date);
             answer=formattedDate.substring(0,5);

@@ -7,9 +7,12 @@
     android:foreground="?android:attr/selectableItemBackground"
     android:layout_width="match_parent"
     card_view:cardCornerRadius="5dp"
+    card_view:cardUseCompatPadding="true"
     android:layout_height="wrap_content"
     android:layout_marginRight="5dp"
     android:layout_marginLeft="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
     android:id="@+id/card_view"
     android:background="@drawable/custom_bg"
     >
